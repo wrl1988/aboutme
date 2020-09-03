@@ -1,41 +1,74 @@
 'use strict';
 console.log('JS loaded');
 
-function valid_input() {
-  var quizProceed =
+// var userName;
+// var askName;
+// var askFood;
+// var askHobby;
+// var askVaca;
 
+var userName = prompt('Welcome to my about me site. Who is going to be taking my quiz?');
+// userName = userName.chartAt(0).toUppercase() + userName.slice(1);
+console.log(userName) === "string"; // ('That\'s awesome! Let\'s get started ' + userName + '. Please answer the following with a yes or now response. Good luck!');
+alert("That's awesome! Let's get started " + userName + ". Please answer the following with a yes or now response. Good luck!");
 
-
+var askName = prompt('Is my middle name Steven?');
+if(askName == 'no') {
+    console.log(askName.toLowerCase(), askName);
+    alert('You\'re right, my middle name is Allen.');
+}
+else {
+    alert('I\'m sorry, but my middle name is Allen.');
 }
 
-var userName = prompt('Welcome to my biography questionnaire! Who am I quizzing today?');
-userName = userName.charAt(0).toUpperCase() + userName.slice(1);
-console.log(userName) === "string";
-alert('Hello ' + userName + '! Good luck on your super serious Jeff Ostlund Final.');
-
-var askBio = prompt(userName + ', would you guess that I am 30 or 31?');
-if (askBio = 30) {
-  console.log('Sorry' + userName + ', but you will have to guess again.');
-  alert('Sorry' + userName + ', but you will have to guess again.');
+var askFood = prompt("Is my favorite food Italian?");
+if(askFood == "yes") {
+    console.log(askFood.toLowerCase(), askFood);
+    alert("You're right, I love spaghetti and chicken parmesan!");
+} 
+else {
+    alert("Nahhh, I love Italian food!");
 }
-else if (askBio = 31) {
-  console.log('Way to go' + userName + '! That was easy though. Lets see whats next.');
-  alert('Way to go ' + userName + '! That was easy though Lets see whats next.');
+
+var askHobby = prompt("Is one of my hobbies fishing?")
+if(askHobby == "no") {
+    console.log(askHobby.toLowerCase(), askHobby);
+    alert("You are correct! I have never been fishing in my life.");
+} 
+else {
+      alert("I have never been, but I would like to.");
 }
-  
 
-var askBio = prompt('' + userName + '' + favFood + '');
-console.log('O' + userHobby);
-alert(userHobby + '');
+var askVaca = prompt("Have I ever been to Mexico?");
+if(askVaca = "yes") {
+    console.log(askVaca.toLowerCase(), askVaca);
+    alert("I went this summer, but everything was closed because of COVID-19.");
+} 
+else {
+      alert("I was lucky enough to go this summer!");
+}
 
-var askEdu = prompt(userName + '' + favFood + '' + userHobby + '');
-console.log('' + favFood + '' + userHobby);alert('');
+var askExp = prompt("Did I ever work at a corn maze?");
+if(askName = "yes") {
+    console.log(askName.toLowerCase(), askName);
+    alert("Yeah baby! I was a 'corn cop'!");
+}
+else { 
+    alert("I definitely was back in the day.");
+}
 
-var askWork = prompt(userName + '' + favFood + '' + userHobby + '');
-console.log('' + favFood + '' + userHobby);
-alert('');
 
-var askGoal = prompt(userName + '' + favFood + '' + userHobby + '');
-console.log('' + favFood + '' + userHobby);
-alert('');
+// var name = prompt("What is your name?");
+// alert("Welcome, "+name+"!");
 
+// var food = prompt("What is your favorite food?");
+// alert("That sounds delicious!"+name+"!");
+
+// var hobby = prompt("What is your name?");
+// alert("Welcome, "+name+"!");
+
+// var vaca = prompt("What is your name?");
+// alert("Welcome, "+name+"!");
+
+// var multitask = prompt("What is your name?");
+// alert("Welcome, "+name+"!");
