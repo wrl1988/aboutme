@@ -57,6 +57,58 @@ else {
     alert("I definitely was back in the day.");
 }
 
+var askAge;
+
+for(var i = 0 ; i < 4; i++) {
+    askAge = prompt("How old am I?");
+    if(askAge === 31) {
+        alert("Congratulations, you got it right!");  
+    }   else (askAge < 31); {
+        alert("That's too low. Gotta guess higher...");
+    //}   else (guess > 31); {} I don't understand, it sayd "syntax error in console.log"
+        alert("That's too high. I'm not ancient!");
+    }   continue;
+}
+
+var askMovie = ['Good Will Hunting', 'Shawshenk Redemption', 'Braveheart', 'Anchorman', 'Vicky Christina Barcelona', 'Apocalypse Now', 'Batman Begins', 'Midnight In Paris', 'The Departed', 'Dumb and Dumber'];
+// var arrayMovie = askMovie.length
+
+// it was showing a console.log/alert with the full array of movies without asking
+// i have no idea and also there has to be an easier way...
+for(var i = 0; i < 5; i++) {
+    askMovie = prompt("What's my favorite movie?");
+    if (askMovie === 'Good Will Hunting') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Shawshenk Redemption') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Braveheart') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Anchorman') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Vicky Christina Barcelona') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Apocalypse Now') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Batman Begins') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Midnight In Paris') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'The Departed') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    else if (askMovie === 'Dumb and Dumber') {
+        prompt(askMovie + ' is one of my favorite movies!');
+    }
+    //return prompt("I'm sorry, but one of these would be correct: " + askMovie);
+}
 
 // var name = prompt("What is your name?");
 // alert("Welcome, "+name+"!");
