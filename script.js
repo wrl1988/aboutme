@@ -75,9 +75,11 @@ var askMovie = ['Good Will Hunting', 'Shawshenk Redemption', 'Braveheart', 'Anch
 
 // it was showing a console.log/alert with the full array of movies without asking
 // i have no idea and also there has to be an easier way...
-for(var i = 0; i < 5; i++) {
+for(var askMovie = 0; i < 6; i++) {
+    // console.log(askMovie)
     askMovie = prompt("What's my favorite movie?");
     if (askMovie === 'Good Will Hunting') {
+        // console.log(askMovie + ' is one of my favorite movies!');
         prompt(askMovie + ' is one of my favorite movies!');
     }
     else if (askMovie === 'Shawshenk Redemption') {
