@@ -70,7 +70,7 @@ for(var i = 0 ; i < 4; i++) {
     }   continue;
 }
 
-var askMovie = ['Good Will Hunting', 'Shawshenk Redemption', 'Braveheart', 'Anchorman', 'Vicky Christina Barcelona', 'Apocalypse Now', 'Batman Begins', 'Midnight In Paris', 'The Departed', 'Dumb and Dumber'];
+var askMovie = new Array ['Good Will Hunting', 'Shawshenk Redemption', 'Braveheart', 'Anchorman', 'Vicky Christina Barcelona', 'Apocalypse Now', 'Batman Begins', 'Midnight In Paris', 'The Departed', 'Dumb and Dumber'];
 // var arrayMovie = askMovie.length
 
 // it was showing a console.log/alert with the full array of movies without asking
