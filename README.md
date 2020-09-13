@@ -11,6 +11,9 @@ This project started as a simple 5 question yes/no quiz so the user can get to k
 
 - Edited the  last couple questions to create more efficient loops
 - Worked with Chance on parseInt to compare numerical data (=== vs ==) "ask Jacob about character codes"
+- Added the number guessing game
+- Added a score keeper
+- Added an alert at the end using the user's name and returning their score
 
 ## Pair Programming
 
