@@ -4,7 +4,7 @@
 
 var userName = prompt('Welcome to my About Me site. Who is going to be taking my quiz?');
 userName = userName.charAt(0).toUpperCase() + userName.slice(1);
-console.log(userName)
+console.log(userName);
 alert("Let's get started " + userName + ". Please answer the following with a yes or no response. Good luck!");
 
 var score = 0;
